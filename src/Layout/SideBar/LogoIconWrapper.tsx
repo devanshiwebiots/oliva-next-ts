@@ -7,7 +7,7 @@ const LogoIconWrapper = () => {
     return (
         <div className="logo-icon-wrapper">
             <Link href={`/dashboard/default`}>
-                <Image className="img-fluid" src={`${ImagePath}/logo/logo-icon.png`} width={32} height={32} alt="" />
+                <Image className="img-fluid" src={`${ImagePath}/logo/logo-icon.png`} width={32} height={32} alt="" unoptimized/>
             </Link>
         </div>
     )

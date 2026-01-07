@@ -8,7 +8,7 @@ const BlogDetail = () => {
         <Col sm={12}>
             <Card className="blog-detail">
                 <CardHeader className="pb-0 border-0">
-                    <Image className="img-fluid w-100" src={`${ImagePath}/blog/blog-detail.jpg`} width={1157} height={301} alt="" />
+                    <Image className="img-fluid w-100" src={`${ImagePath}/blog/blog-detail.jpg`} width={1157} height={301} alt="" unoptimized/>
                 </CardHeader>
                 <CardBody>
                     <h4>{'Exploring the Intersection of Technology and Business'}</h4>

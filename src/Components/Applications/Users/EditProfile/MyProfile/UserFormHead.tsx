@@ -7,7 +7,7 @@ export const UserFormHead = () => {
     <Row>
       <div className="profile-title">
         <div className="d-flex">
-          <Image width={70} height={70} className="img-70 rounded-circle" alt="" src={`${ImagePath}/user/7.jpg`} />
+          <Image width={70} height={70} className="img-70 rounded-circle" alt="" src={`${ImagePath}/user/7.jpg`} unoptimized/>
           <div className="flex-grow-1">
             <h3 className="mb-1 text-uppercase">Mark Jecno</h3>
             <p>{Designer}</p>

@@ -13,12 +13,12 @@ const GridCards = () => {
                 <Col xxl={4} xl={6} lg={4} sm={6} key={item.id}>
                     <Card className="grid-cards">
                         <CardHeader className="p-0 border-0">
-                            <Image width={382} height={256} className="img-fluid" src={`${ImagePath}/blog/grid-${item.gridSrc}`} alt="" />
+                            <Image width={382} height={256} className="img-fluid" src={`${ImagePath}/blog/grid-${item.gridSrc}`} alt="" unoptimized/>
                         </CardHeader>
                         <CardBody>
                             <div className="d-flex gap-2 align-items-center">
                                 <div className="flex-shrink-0">
-                                    <Image className="img-fluid" width={40} height={40} src={`${ImagePath}/blog/about/${item.aboutSrc}`} alt="avatar" />
+                                    <Image className="img-fluid" width={40} height={40} src={`${ImagePath}/blog/about/${item.aboutSrc}`} alt="avatar" unoptimized/>
                                 </div>
                                 <div className="flex-grow-1">
                                     <h6>{item.name}</h6>

@@ -9,7 +9,7 @@ const UserDetails = () => {
             <Col md={4}>
                 <div className="d-flex">
                     <div className="media-left">
-                        <Image width={120} height={36} className="media-object rounded-circle img-60" src={`${ImagePath}/user/1.jpg`} alt="user" />
+                        <Image width={120} height={36} className="media-object rounded-circle img-60" src={`${ImagePath}/user/1.jpg`} alt="user" unoptimized/>
                     </div>
                     <div className="flex-grow-1 m-l-20">
                         <h3 className="media-heading">{'Johan Deo'}</h3>

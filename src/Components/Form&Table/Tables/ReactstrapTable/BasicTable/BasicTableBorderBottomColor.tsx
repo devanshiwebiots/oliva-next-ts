@@ -15,7 +15,7 @@ const BasicTableBorderBottomColor = () => {
             <tr className={`border-bottom-${data.color}`} key={data.id}>
               <th scope="row">{data.id}</th>
               <td>
-                <Image width={30} height={30} className="img-30 me-2" src={`${ImagePath}/${data.image}`} alt="users" />
+                <Image width={30} height={30} className="img-30 me-2" src={`${ImagePath}/${data.image}`} alt="users" unoptimized/>
                 {data.firstname}
               </td>
               <td>{data.lastName}</td>

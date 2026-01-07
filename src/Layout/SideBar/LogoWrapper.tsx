@@ -16,7 +16,7 @@ export const LogoWrapper = () => {
     <>
       <div className="logo-wrapper">
         <Link href={`/dashboard/default`}>
-          <Image width={121} height={38} className="img-fluid" src={`${ImagePath}/logo/logo.png`} alt="" />
+          <Image width={121} height={38} className="img-fluid" src={`${ImagePath}/logo/logo.png`} alt="" unoptimized/>
         </Link>
         <div className="toggle-sidebar">
           <SVG className="sidebar-toggle" iconId="toggle-icon" onClick={handleSidebarToggle} />

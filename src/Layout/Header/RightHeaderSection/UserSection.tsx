@@ -15,7 +15,7 @@ export const UserSection = () => {
   return (
     <li className="profile-nav onhover-dropdown p-0">
       <div className="d-flex align-items-center profile-media">
-        <Image width={40} height={40} className="b-r-10 img-40" src={session?.user?.image || `${ImagePath}/dashboard/profile.png`} alt="user" />
+        <Image width={40} height={40} className="b-r-10 img-40" src={session?.user?.image || `${ImagePath}/dashboard/profile.png`} alt="user" unoptimized/>
         <div className="flex-grow-1">
           <span>{session?.user?.email}</span>
           <p className="mb-0">{session?.user?.name || 'Admin'}<i className="middle fa fa-angle-down" /></p>

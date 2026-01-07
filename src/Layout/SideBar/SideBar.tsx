@@ -33,7 +33,7 @@ export const SideBar = () => {
                       <div className="simplebar-content">
                         <li className="back-btn">
                           <Link href={`/dashboard/default`}>
-                            <Image width={32} height={32} className="img-fluid" src={`${ImagePath}/logo/logo-icon.png`} alt="" />
+                            <Image width={32} height={32} className="img-fluid" src={`${ImagePath}/logo/logo-icon.png`} alt="" unoptimized/>
                           </Link>
                           <div className="mobile-back text-end">
                             <span>Back </span>

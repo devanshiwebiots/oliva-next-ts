@@ -31,7 +31,7 @@ const FeedbackCard = () => {
                         <ul>
                             <li className="d-inline-block">
                                 {DynamicNumber(4).map((item, index) => (
-                                    <Image className="rounded-circle" key={index} src={`${ImagePath}/dashboard-2/user/${item}.png`} width={38} height={38} alt="user" />
+                                    <Image className="rounded-circle" key={index} src={`${ImagePath}/dashboard-2/user/${item}.png`} width={38} height={38} alt="user" unoptimized/>
                                 ))}
                             </li>
                         </ul>

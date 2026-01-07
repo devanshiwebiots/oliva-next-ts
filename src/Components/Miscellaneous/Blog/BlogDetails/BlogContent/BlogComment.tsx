@@ -15,7 +15,7 @@ const BlogComment = () => {
                         {blogCommentData.map((item) => (
                             <li key={item.id} className={item.id === 2 ? 'replay' : ''}>
                                 <div className="d-flex">
-                                    <Image width={50} height={50} src={`${ImagePath}/avtar/${item.image}`} alt="Generic placeholder image" />
+                                    <Image width={50} height={50} src={`${ImagePath}/avtar/${item.image}`} alt="Generic placeholder image" unoptimized/>
                                     <div className="flex-grow-1">
                                         <h6>{item.name}</h6>
                                         <span>( {item.date} ) <a className="ms-1" href={Href}>{'reply'}</a></span>

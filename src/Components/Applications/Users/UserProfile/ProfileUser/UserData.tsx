@@ -12,7 +12,7 @@ const UserData = () => {
         <div className="cardheader"></div>
         <div className="user-image">
           <div className="avatar">
-            <Image width={86} height={86} alt="" src={`${ImagePath}/user/7.jpg`} />
+            <Image width={86} height={86} alt="" src={`${ImagePath}/user/7.jpg`} unoptimized/>
           </div>
           <div className="icon-wrapper">
             <i className="icofont icofont-pencil-alt-5"></i>

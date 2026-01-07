@@ -20,7 +20,7 @@ const NewCustomers = () => {
                                     <tr key={item.id}>
                                         <td>
                                             <div className="d-flex">
-                                                <Image src={`${ImagePath}/dashboard/user/${item.image}`} width={40} height={40} alt="" />
+                                                <Image src={`${ImagePath}/dashboard/user/${item.image}`} width={40} height={40} alt="" unoptimized/>
                                                 <div className="flex-grow-1 ms-2">
                                                     <Link href={`/users/user_profile`}>
                                                         <span>{item.name}</span>

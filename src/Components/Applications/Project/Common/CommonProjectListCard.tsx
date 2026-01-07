@@ -10,7 +10,7 @@ export const CommonProjectListCard :React.FC<CommonProjectInterFace> = ({ item }
         <span className={`ribbon ribbon-${item.badge === 'Done' ? 'success' : 'primary'} ribbon-clip-right ribbon-right`}>{item.badge}</span>
         <h5 className="f-w-500">{item.title}</h5>
         <div className="d-flex">
-          <Image width={20} height={20} className="img-20 me-1 rounded-circle" src={`${ImagePath}/user/${item.image}`} alt="" />
+          <Image width={20} height={20} className="img-20 me-1 rounded-circle" src={`${ImagePath}/user/${item.image}`} alt="" unoptimized/>
           <div className="flex-grow-1"><p>{item.sites}</p></div>
         </div>
         <p>{item.description}</p>
@@ -24,9 +24,9 @@ export const CommonProjectListCard :React.FC<CommonProjectInterFace> = ({ item }
         </Row>
         <div className="customers">
           <ul>
-            <li className="d-inline-block"><Image width={30} height={30} className="img-30 rounded-circle" src={`${ImagePath}/user/${item.customers_img1}`} alt="" /></li>
-            <li className="d-inline-block"><Image width={30} height={30} className="img-30 rounded-circle" src={`${ImagePath}/user/${item.customers_img2}`} alt="" /></li>
-            <li className="d-inline-block"><Image width={30} height={30} className="img-30 rounded-circle" src={`${ImagePath}/user/${item.customers_img3}`} alt="" /></li>
+            <li className="d-inline-block"><Image width={30} height={30} className="img-30 rounded-circle" src={`${ImagePath}/user/${item.customers_img1}`} alt="" unoptimized/></li>
+            <li className="d-inline-block"><Image width={30} height={30} className="img-30 rounded-circle" src={`${ImagePath}/user/${item.customers_img2}`} alt="" unoptimized/></li>
+            <li className="d-inline-block"><Image width={30} height={30} className="img-30 rounded-circle" src={`${ImagePath}/user/${item.customers_img3}`} alt="" unoptimized/></li>
             <li className="d-inline-block ms-2"><p className="f-12">{`+${item.like} More`}</p></li>
           </ul>
         </div>

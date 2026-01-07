@@ -7,7 +7,7 @@ export const CommonUserHeader = () => {
     <Row>
       <Col sm="8">
         <div className="d-flex">
-          <Image width={50} height={50} className="img-thumbnail img-50 rounded-circle me-3" src={`${ImagePath}/user/7.jpg`} alt="Generic placeholder img" />
+          <Image width={50} height={50} className="img-thumbnail img-50 rounded-circle me-3" src={`${ImagePath}/user/7.jpg`} alt="Generic placeholder img" unoptimized/>
           <div className="flex-grow-1 align-self-center">
             <h3 className="mt-0 user-name">JOHAN DIO</h3>
           </div>

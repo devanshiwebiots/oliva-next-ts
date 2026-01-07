@@ -11,7 +11,7 @@ const MyProfileClassCollapse :React.FC<MyProfileClassCollapseProp> = ({ isFilter
     <Collapse isOpen={isFilter}>
       <CardBody className="socialprofile filter-cards-view">
         <div className="d-flex">
-          <Image width={50} height={50} className="img-50 img-fluid m-r-20 rounded-circle" src={`${ImagePath}/user/1.jpg`} alt="user" />
+          <Image width={50} height={50} className="img-50 img-fluid m-r-20 rounded-circle" src={`${ImagePath}/user/1.jpg`} alt="user" unoptimized/>
           <MessagesAndNotification />
         </div>
         <LikesViewButton />
@@ -23,7 +23,7 @@ const MyProfileClassCollapse :React.FC<MyProfileClassCollapseProp> = ({ isFilter
         <div className="customers text-center social-group">
           <SocialGroup />
         </div>
-        <Image width={341} height={228} className="img-fluid mt-5" alt="" src={`${ImagePath}/social-app/timeline-3.png`} />                            
+        <Image width={341} height={228} className="img-fluid mt-5" alt="" src={`${ImagePath}/social-app/timeline-3.png`} unoptimized/>                            
       </CardBody>
     </Collapse>
   );

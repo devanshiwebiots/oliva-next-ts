@@ -1291,7 +1291,7 @@ export const grossCategoriesColumns: TableColumn<GrossCategoriesType>[] = [
     cell: (row) => (
       <div className="d-flex">
         <div className="flex-shrink-0">
-          <Image src={`${ImagePath}/dashboard-2/product/${row.image}`} width={42} height={42} alt="" />
+          <Image src={`${ImagePath}/dashboard-2/product/${row.image}`} width={42} height={42} alt="" unoptimized/>
         </div>
         <div className="flex-grow-1 ms-3">
           <Link href={`/app/ecommerce/product-list`}>
@@ -2555,7 +2555,7 @@ export const productOrderColumns: TableColumn<ProductOrderTypes>[] = [
     cell: (row) => (
       <div className="d-flex custom-Product">
         <div className="flex-shrink-0">
-          <Image src={`${ImagePath}/dashboard-2/product/${row.image}`} width={38} height={38} alt="" />
+          <Image src={`${ImagePath}/dashboard-2/product/${row.image}`} width={38} height={38} alt="" unoptimized/>
         </div>
         <div className="flex-grow-1">
           <Link href={`/app/ecommerce/product`}>

@@ -18,7 +18,7 @@ const ReviewSlider = () => {
                             {reviewSliderData.map((item) => (
                                 <div className="review" key={item.id}>
                                     <div>
-                                        <Image className="img-fluid" src={`${ImagePath}/dashboard-2/user/${item.image}`} width={72} height={72} alt="" />
+                                        <Image className="img-fluid" src={`${ImagePath}/dashboard-2/user/${item.image}`} width={72} height={72} alt="" unoptimized/>
                                         <div className="review-content">
                                             <h2>{item.title}</h2>
                                         </div>

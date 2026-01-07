@@ -23,7 +23,7 @@ export const CommentCustomerContent: React.FC<WebCardProps> = ({ item }) => {
           <ul>
             {item.customers.map((list) => (
               <li className="d-inline-block" key={list.id}>
-                <Image width={42} height={42} src={`${ImagePath}/widgets/user/${list.image}`} alt="user" />
+                <Image width={42} height={42} src={`${ImagePath}/widgets/user/${list.image}`} alt="user" unoptimized/>
               </li>
             ))}
           </ul>

@@ -76,7 +76,7 @@ const ProductGrid = () => {
                                         {(item.status !== "none") ?
                                             (<div className={item.ribbonClassName}>{item.status}</div>) : ("")
                                         }
-                                        <Image className='img-fluid' src={`${ImagePath}/${item.image}`} width={382} height={416} alt='' />
+                                        <Image className='img-fluid' src={`${ImagePath}/${item.image}`} width={382} height={416} alt='' unoptimized/>
                                         <ProductHover onClickHandle={onClickHandle} item={item} />
                                     </div>
                                     <ProductDetails item={item} />

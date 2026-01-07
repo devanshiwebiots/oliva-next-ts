@@ -25,8 +25,8 @@ const InvoiceFourHeader = () => {
                             </ul>
                         </td>
                         <td>
-                            <Image width={120} height={36} className='for-light' style={{ height: 50, marginBottom: 14 }} src={`${ImagePath}/logo/logo-1.png`} alt="logo" />
-                            <Image width={120} height={36} className='for-dark' style={{ height: 50, marginBottom: 14 }} src={`${ImagePath}/logo/logo.png`} alt="logo" />
+                            <Image width={120} height={36} className='for-light' style={{ height: 50, marginBottom: 14 }} src={`${ImagePath}/logo/logo-1.png`} alt="logo" unoptimized/>
+                            <Image width={120} height={36} className='for-dark' style={{ height: 50, marginBottom: 14 }} src={`${ImagePath}/logo/logo.png`} alt="logo" unoptimized/>
                             <span style={{ display: "block", lineHeight: "1.5", fontSize: 18, fontWeight: 400, opacity: "0.8" }} >
                                 2118 Thornridge Cir. Syracuse, Connecticut 35624, United State
                             </span>

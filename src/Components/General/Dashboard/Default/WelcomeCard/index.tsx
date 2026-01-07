@@ -23,7 +23,7 @@ const WelcomeCard = () => {
                             ))}
                         </div>
                         <div className="flex-shrink-0">
-                            <Image src={`${ImagePath}/dashboard/welcome.png`} width={240} height={234} alt="" />
+                            <Image src={`${ImagePath}/dashboard/welcome.png`} width={240} height={234} alt="" unoptimized/>
                         </div>
                     </div>
                 </CardBody>

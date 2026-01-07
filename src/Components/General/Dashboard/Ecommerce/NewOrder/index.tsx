@@ -27,7 +27,7 @@ const NewOrder = () => {
                                     <tr key={item.id}>
                                         <td>
                                             <div className="d-flex">
-                                                <Image src={`${ImagePath}/dashboard-2/product/${item.image}`} width={40} height={40} alt="" />
+                                                <Image src={`${ImagePath}/dashboard-2/product/${item.image}`} width={40} height={40} alt="" unoptimized/>
                                                 <div className="flex-grow-1 ms-2">
                                                     <Link href={`/app/ecommerce/product-page`}>
                                                         <span>{item.name}</span>

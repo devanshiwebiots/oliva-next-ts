@@ -331,7 +331,7 @@ export const orderHistoryColumns: TableColumn<OrderHistoryDataTableProps>[] = [
         sortable: true,
         center: true,
         cell: (row) => (
-            <Image className="img-fluid img-30" width={30} height={30} src={`${ImagePath}/product/${row.product}`} alt="" />
+            <Image className="img-fluid img-30" width={30} height={30} src={`${ImagePath}/product/${row.product}`} alt="" unoptimized/>
         )
     },
     {

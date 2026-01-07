@@ -29,7 +29,7 @@ const ProductSidebar = () => {
                   <ProductCategory />
                   <NewProductSlides /> 
                   <div className="product-filter text-center mt-2">
-                    <Image className='img-fluid banner-product' src={`${ImagePath}/ecommerce/banner.jpg`} width={295} height={446} alt='' />
+                    <Image className='img-fluid banner-product' src={`${ImagePath}/ecommerce/banner.jpg`} width={295} height={446} alt='' unoptimized/>
                   </div>
                 </CardBody>
               </div>

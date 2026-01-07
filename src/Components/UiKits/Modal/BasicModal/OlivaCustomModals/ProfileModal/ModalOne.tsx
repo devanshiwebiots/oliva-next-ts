@@ -15,7 +15,7 @@ export const ModalOne = () => {
         <div className="Oliva-demo-img">
           <CommonOlivaModalTitle heading="Modal 1 -" subHeading="Profile Modal" text="Example of Oliva dashboard profile card." />
           <div className="overflow-hidden">
-            <Image width={482} height={263} className="image-fluid" src={`${ImagePath}/alert/social.jpg`} alt="social" />
+            <Image width={482} height={263} className="image-fluid" src={`${ImagePath}/alert/social.jpg`} alt="social" unoptimized/>
             <Button color="primary" className="mx-auto mt-3" onClick={modalOneToggle}>{ClickOut}</Button>
           </div>
           <ProfileModal modalOne={modalOne} modalOneToggle={modalOneToggle} />

@@ -15,7 +15,7 @@ const NotificationsCard = () => {
                 <CardBody>
                     {notificationsCardData.map((item) => (
                         <div className={`d-flex align-items-center ${item.id === 1 ? 'pt-0' : ''}`} key={item.id}>
-                            <Image src={`${ImagePath}/dashboard-2/user/${item.image}`} alt="" width={45} height={45} />
+                            <Image src={`${ImagePath}/dashboard-2/user/${item.image}`} alt="" width={45} height={45} unoptimized/>
                             <div className="flex-grow-1">
                                 <Link href={`/social-app`}>
                                     <h5>

@@ -28,7 +28,7 @@ const OrderCards = () => {
                                     {!isCardClosed(product.id) && (
                                         <div className="prooduct-details-box">
                                             <div className="d-flex">
-                                                <Image className="align-self-center img-fluid img-60" width={60} height={60} src={`${ImagePath}/ecommerce/product-table-${product.image}`} alt="#" />
+                                                <Image className="align-self-center img-fluid img-60" width={60} height={60} src={`${ImagePath}/ecommerce/product-table-${product.image}`} alt="#" unoptimized/>
                                                 <div className="flex-grow-1 ms-3">
                                                     <div className="product-name">
                                                         <h6><a href={Href}>{product.name}</a></h6>

@@ -15,7 +15,7 @@ const NewsUpdate = () => {
                 <CardBody>
                     {newsUpdateData.map((item) => (
                         <div className={`d-flex align-items-center ${item.id === 1 ? "pt-0" : ""}`} key={item.id}>
-                            <Image src={`${ImagePath}/dashboard/news/${item.image}`} width={60} height={47} alt="" />
+                            <Image src={`${ImagePath}/dashboard/news/${item.image}`} width={60} height={47} alt="" unoptimized/>
                             <div className="flex-grow-1">
                                 <Link href={`/social-app`}>
                                     <h5>{item.title}</h5>

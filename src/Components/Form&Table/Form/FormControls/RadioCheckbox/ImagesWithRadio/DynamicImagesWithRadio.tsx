@@ -13,7 +13,7 @@ const DynamicImagesWithRadio = () => {
           <div className="img-checkbox">
             <Input className="main-img-cover" id={id} type="radio" name="radio6" defaultChecked={defaultChecked} disabled={disabled} />
             <Label className="mb-0" htmlFor={id} check>
-              <Image width={350} height={220} src={`${ImagePath}/switch/${src}.jpg`} alt={alt} />
+              <Image width={350} height={220} src={`${ImagePath}/switch/${src}.jpg`} alt={alt} unoptimized/>
             </Label>
           </div>
         </div>

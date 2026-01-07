@@ -20,7 +20,7 @@ const SideBar = () => {
                 <div className="email-app-sidebar left-bookmark">
                   <div className="d-flex align-items-center">
                     <div className="media-size-email">
-                      <Image width={52} height={52} className="me-3 rounded-circle" src={`${ImagePath}/user/user.png`} alt="user" />
+                      <Image width={52} height={52} className="me-3 rounded-circle" src={`${ImagePath}/user/user.png`} alt="user" unoptimized/>
                     </div>
                     <div className="flex-grow-1">
                       <h4>Mark Jecno</h4>

@@ -34,7 +34,7 @@ export const CartSection = () => {
             {cartData.map((item) => (
               <li key={item.id}>
                 <div className='d-flex'>
-                  <Image className='img-fluid b-r-5 img-40' src={`${ImagePath}/${item.image}`} width={40} height={45} alt='' />
+                  <Image className='img-fluid b-r-5 img-40' src={`${ImagePath}/${item.image}`} width={40} height={45} alt='' unoptimized/>
                   <div className='flex-grow-1'>
                     <span>{item.name}</span>
                     <h6>
@@ -71,7 +71,7 @@ export const CartSection = () => {
         </ul>
          ) : (
           <Col sm={12} className='empty-cart-cls text-center'>
-          <Image height={172} width={172} src={`${ImagePath}/ecommerce/icon-empty-cart.png`} className='img-fluid mb-4 mt-4' alt='Empty Cart' />
+          <Image height={172} width={172} src={`${ImagePath}/ecommerce/icon-empty-cart.png`} className='img-fluid mb-4 mt-4' alt='Empty Cart' unoptimized/>
           <h5>
             <strong>Your Cart is Empty</strong>
           </h5>

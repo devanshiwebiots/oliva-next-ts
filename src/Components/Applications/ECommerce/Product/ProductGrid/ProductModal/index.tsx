@@ -16,7 +16,7 @@ const ProductModal: React.FC<ProductModalProps> = ({ value, setOpenModal, dataId
       <ModalHeader color='transparent' toggle={onCloseModal}>
         <Row className="product-box">
           <Col lg={6} className="product-img">
-            <Image alt="image" className="img-fluid" src={modelData?.image ? `${ImagePath}/${modelData.image}` : ""} width={371} height={405} />
+            <Image alt="image" className="img-fluid" src={modelData?.image ? `${ImagePath}/${modelData.image}` : ""} width={371} height={405} unoptimized/>
           </Col>
           <Col lg={6} className="product-details text-start">
             <ModalProductDetails modelData={modelData} />

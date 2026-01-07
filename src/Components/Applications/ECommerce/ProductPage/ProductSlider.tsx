@@ -18,7 +18,7 @@ const ProductSlider = () => {
             <Slider className='product-slider' arrows={false} asNavFor={nav2!} autoplay={true} autoplaySpeed={3000} ref={(slider1) => setNav1(slider1)}>
                 {productItem ? productItem.map((item) =>
                     item.variants.map((items, id) =>
-                        <Image src={`${ImagePath}/${items.images}`} alt='' width={479} height={400} className="img-fluid" key={id} />)
+                        <Image src={`${ImagePath}/${items.images}`} alt='' width={479} height={400} className="img-fluid" key={id} unoptimized/>)
                 ) : "No product Found "
                 }
             </Slider>
@@ -26,7 +26,7 @@ const ProductSlider = () => {
                 {productItem &&
                     productItem.map((item) => {
                         return item.variants.map((items, id) =>
-                            <Image src={`${ImagePath}/${items.images}`} alt='' width={107} height={117} className="img-fluid" key={id} />);
+                            <Image src={`${ImagePath}/${items.images}`} alt='' width={107} height={117} className="img-fluid" key={id} unoptimized/>);
                     })}
             </Slider>
         </>

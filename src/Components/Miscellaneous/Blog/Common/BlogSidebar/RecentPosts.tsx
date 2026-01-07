@@ -15,7 +15,7 @@ const RecentPosts = () => {
                         {recentPostsData.map((item) => (
                             <li key={item.id}>
                                 <div className="d-flex gap-2 align-items-start">
-                                    <Image className="img-fluid rounded" width={70} height={42} src={`${ImagePath}/blog/small/${item.image}`} alt="Generic placeholder image" />
+                                    <Image className="img-fluid rounded" width={70} height={42} src={`${ImagePath}/blog/small/${item.image}`} alt="Generic placeholder image" unoptimized/>
                                     <div className="flex-grow-1">
                                         <h6>{item.title}</h6>
                                         <p>{item.time}</p>

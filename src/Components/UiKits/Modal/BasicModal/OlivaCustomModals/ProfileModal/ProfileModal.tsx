@@ -16,7 +16,7 @@ export const ProfileModal:React.FC<ProfileModalType> = ({ modalOne, modalOneTogg
               <CardBody>
                 <div className="social-img-wrap">
                   <div className="social-img">
-                    <Image width={68} height={68} src={`${ImagePath}/dashboard/profile.png`} alt="profile" />
+                    <Image width={68} height={68} src={`${ImagePath}/dashboard/profile.png`} alt="profile" unoptimized/>
                   </div>
                   <div className="edit-icon"><SVG iconId="profile-check" /></div>
                 </div>
